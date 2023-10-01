@@ -11,6 +11,7 @@
 		11196CD12AC8B59100652C02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11196CD02AC8B59100652C02 /* ContentView.swift */; };
 		11196CD32AC8B59300652C02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11196CD22AC8B59300652C02 /* Assets.xcassets */; };
 		11196CD62AC8B59300652C02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11196CD52AC8B59300652C02 /* Preview Assets.xcassets */; };
+		11196CDD2AC9501D00652C02 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11196CDC2AC9501D00652C02 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		11196CD02AC8B59100652C02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		11196CD22AC8B59300652C02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11196CD52AC8B59300652C02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11196CDC2AC9501D00652C02 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		11196CCD2AC8B59100652C02 /* SwiftUITestProject */ = {
 			isa = PBXGroup;
 			children = (
+				11196CDC2AC9501D00652C02 /* MenuView.swift */,
 				11196CCE2AC8B59100652C02 /* SwiftUITestProjectApp.swift */,
 				11196CD02AC8B59100652C02 /* ContentView.swift */,
 				11196CD22AC8B59300652C02 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11196CD12AC8B59100652C02 /* ContentView.swift in Sources */,
+				11196CDD2AC9501D00652C02 /* MenuView.swift in Sources */,
 				11196CCF2AC8B59100652C02 /* SwiftUITestProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

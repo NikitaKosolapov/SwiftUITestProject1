@@ -546,6 +546,42 @@
 			<key>uniqueIdentifier</key>
 			<string>4FEB3952-1376-4B83-96E7-45A84DA48E63</string>
 		</dict>
+		<key>5384C401-0F79-48C4-AD96-6880FED9E76A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5384C401-0F79-48C4-AD96-6880FED9E76A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>signature</key>
+			<string>eyJidWlsZFN5c3RlbVRhc2tfYnVpbGRUYXNrIjoiUHJlcGFyZSBidWlsZCIsInR5cGUiOnsiYnVpbGRTeXN0ZW1UYXNrIjp7fX19</string>
+			<key>timeStartedRecording</key>
+			<real>717827729.08515096</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build for Previews SwiftUITestProject</string>
+			<key>uniqueIdentifier</key>
+			<string>5384C401-0F79-48C4-AD96-6880FED9E76A</string>
+		</dict>
 		<key>54503867-8230-4324-9443-DF8DCD31AB62</key>
 		<dict>
 			<key>className</key>
@@ -653,6 +689,42 @@
 			<string>Build for Previews SwiftUITestProject</string>
 			<key>uniqueIdentifier</key>
 			<string>6B540763-9A1F-4D6C-8488-3E75A071CCC7</string>
+		</dict>
+		<key>6B6AD54D-27C0-4952-AEE1-131A0195F763</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6B6AD54D-27C0-4952-AEE1-131A0195F763.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>signature</key>
+			<string>eyJibHVlcHJpbnRfYmx1ZXByaW50SWRlbnRpZmllciI6IjExMTk2Q0NBMkFDOEI1OTEwMDY1MkMwMiIsImJsdWVwcmludF9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvTmlraXRhXzFcL0Rlc2t0b3BcL015TGlmZVwvUHJvZ3JhbW1pbmdcL1Byb2plY3RzXC9TVUlcL1N3aWZ0VUlUZXN0UHJvamVjdFwvU3dpZnRVSVRlc3RQcm9qZWN0Lnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50Ijp7fX19</string>
+			<key>timeStartedRecording</key>
+			<real>717827729.08515096</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build for Previews SwiftUITestProject</string>
+			<key>uniqueIdentifier</key>
+			<string>6B6AD54D-27C0-4952-AEE1-131A0195F763</string>
 		</dict>
 		<key>7941501B-9255-4A8F-95B3-3311576387B9</key>
 		<dict>
@@ -1769,6 +1841,42 @@
 			<string>Build SwiftUITestProject</string>
 			<key>uniqueIdentifier</key>
 			<string>F8231497-9E2C-4A0D-A038-4FC56A67362B</string>
+		</dict>
+		<key>FD466900-4BF6-4FBC-B4FA-D819E282E9E4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FD466900-4BF6-4FBC-B4FA-D819E282E9E4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>signature</key>
+			<string>eyJibHVlcHJpbnRQcm92aWRlcl9wcm92aWRlckZpbGVQYXRoU3RyaW5nIjoiXC9Vc2Vyc1wvTmlraXRhXzFcL0Rlc2t0b3BcL015TGlmZVwvUHJvZ3JhbW1pbmdcL1Byb2plY3RzXC9TVUlcL1N3aWZ0VUlUZXN0UHJvamVjdFwvU3dpZnRVSVRlc3RQcm9qZWN0Lnhjb2RlcHJvaiIsInR5cGUiOnsiYmx1ZXByaW50UHJvdmlkZXIiOnt9fX0=</string>
+			<key>timeStartedRecording</key>
+			<real>717827729.08515096</real>
+			<key>timeStoppedRecording</key>
+			<real>63113904000</real>
+			<key>title</key>
+			<string>Build for Previews SwiftUITestProject</string>
+			<key>uniqueIdentifier</key>
+			<string>FD466900-4BF6-4FBC-B4FA-D819E282E9E4</string>
 		</dict>
 		<key>FF789E07-4E76-4022-83EC-D073CE3BF3FA</key>
 		<dict>

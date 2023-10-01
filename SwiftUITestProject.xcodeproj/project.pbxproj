@@ -17,6 +17,8 @@
 		1137E79D2AC984BC009A18C9 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137E79C2AC984BC009A18C9 /* UpdateList.swift */; };
 		1137E79F2AC98877009A18C9 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137E79E2AC98877009A18C9 /* UpdateDetail.swift */; };
 		1137E7A12AC99104009A18C9 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137E7A02AC99104009A18C9 /* UpdateStore.swift */; };
+		1137E7A32AC99584009A18C9 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137E7A22AC99584009A18C9 /* TabBar.swift */; };
+		1137E7A52AC9A086009A18C9 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1137E7A42AC9A086009A18C9 /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		1137E79C2AC984BC009A18C9 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		1137E79E2AC98877009A18C9 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		1137E7A02AC99104009A18C9 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
+		1137E7A22AC99584009A18C9 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		1137E7A42AC9A086009A18C9 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +70,10 @@
 				11196CDC2AC9501D00652C02 /* MenuView.swift */,
 				11196CCE2AC8B59100652C02 /* SwiftUITestProjectApp.swift */,
 				11196CD02AC8B59100652C02 /* ContentView.swift */,
+				1137E7A42AC9A086009A18C9 /* RingView.swift */,
 				11196CDE2AC9588000652C02 /* Home.swift */,
 				1137E79A2AC96F51009A18C9 /* HomeView.swift */,
+				1137E7A22AC99584009A18C9 /* TabBar.swift */,
 				1137E79C2AC984BC009A18C9 /* UpdateList.swift */,
 				1137E7A02AC99104009A18C9 /* UpdateStore.swift */,
 				1137E79E2AC98877009A18C9 /* UpdateDetail.swift */,
@@ -155,6 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1137E7A52AC9A086009A18C9 /* RingView.swift in Sources */,
+				1137E7A32AC99584009A18C9 /* TabBar.swift in Sources */,
 				1137E79F2AC98877009A18C9 /* UpdateDetail.swift in Sources */,
 				11196CD12AC8B59100652C02 /* ContentView.swift in Sources */,
 				11196CDD2AC9501D00652C02 /* MenuView.swift in Sources */,

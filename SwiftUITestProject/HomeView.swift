@@ -42,6 +42,25 @@ struct HomeView: View {
             .padding(.leading, 14)
             .padding(.top, 30)
             
+            HStack(spacing: 14) {
+                RingView(showBottomCard: .constant(true), color1: .blue, color2: .purple, size: 44, percent: 75)
+                
+                VStack(alignment: .leading) {
+                    Text("6 minutes left")
+                        .font(.system(size: 16, weight: .semibold))
+                    
+                    Text("Watched 10 mins today")
+                        .font(.system(size: 12, weight: .regular))
+                        .foregroundStyle(.black.opacity(0.6))
+                }
+            }
+            .padding(8)
+            .padding(.trailing, 20)
+            .background(.white)
+            .clipShape(RoundedRectangle(cornerRadius: 20))
+            .shadow(color: .black.opacity(0.1), radius: /*@START_MENU_TOKEN@*/10/*@END_MENU_TOKEN@*/, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 1)
+            .shadow(color: .black.opacity(0.3), radius: 20, x: 0, y: 20)
+            
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 30) {
                     ForEach(sectionData) { item in

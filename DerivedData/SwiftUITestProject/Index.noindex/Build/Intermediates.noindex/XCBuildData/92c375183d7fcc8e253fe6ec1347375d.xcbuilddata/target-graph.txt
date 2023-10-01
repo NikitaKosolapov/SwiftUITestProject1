@@ -1,3 +1,0 @@
-Target dependency graph (2 targets)
-Target 'SwiftUITestProject' in project 'SwiftUITestProject' (no dependencies)
-Target 'SwiftUITestProject' in project 'SwiftUITestProject' (no dependencies)

@@ -174,7 +174,7 @@ struct TitleView: View {
                 Spacer()
             }
             .padding()
-            Image("background1")
+            Image(.background1)
             Spacer()
         }
     }

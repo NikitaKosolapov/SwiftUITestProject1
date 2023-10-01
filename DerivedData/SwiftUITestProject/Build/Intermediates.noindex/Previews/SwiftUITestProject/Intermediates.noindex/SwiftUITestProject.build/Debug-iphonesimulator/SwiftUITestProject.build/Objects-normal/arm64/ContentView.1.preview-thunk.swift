@@ -10,7 +10,7 @@ import SwiftUI
 
 extension BottomCardView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 133)
+        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 154)
         VStack(spacing: __designTimeInteger("#1730.[6].[0].property.[0].[0].arg[0].value", fallback: 20)) {
             Rectangle()
                 .frame(width: __designTimeInteger("#1730.[6].[0].property.[0].[0].arg[1].value.[0].modifier[0].arg[0].value", fallback: 40), height: __designTimeInteger("#1730.[6].[0].property.[0].[0].arg[1].value.[0].modifier[0].arg[1].value", fallback: 5))
@@ -28,7 +28,6 @@ extension BottomCardView {
         .background(.white)
         .cornerRadius(__designTimeInteger("#1730.[6].[0].property.[0].[0].modifier[4].arg[0].value", fallback: 30))
         .shadow(radius: __designTimeInteger("#1730.[6].[0].property.[0].[0].modifier[5].arg[0].value", fallback: 20))
-        .offset(x: __designTimeInteger("#1730.[6].[0].property.[0].[0].modifier[6].arg[0].value", fallback: 0), y: __designTimeInteger("#1730.[6].[0].property.[0].[0].modifier[6].arg[1].value", fallback: 500))
     
 #sourceLocation()
     }
@@ -36,7 +35,7 @@ extension BottomCardView {
 
 extension TitleView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 117)
+        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 138)
         VStack {
             HStack {
                 Text(__designTimeString("#1730.[5].[0].property.[0].[0].arg[0].value.[0].arg[0].value.[0].arg[0].value", fallback: "Certificates"))
@@ -55,11 +54,10 @@ extension TitleView {
 
 extension BackCardView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 108)
+        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 130)
         VStack {
             Spacer()
         }
-        .frame(width: __designTimeInteger("#1730.[4].[0].property.[0].[0].modifier[0].arg[0].value", fallback: 340), height: __designTimeInteger("#1730.[4].[0].property.[0].[0].modifier[0].arg[1].value", fallback: 220))
     
 #sourceLocation()
     }
@@ -67,7 +65,7 @@ extension BackCardView {
 
 extension CardView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 78)
+        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 104)
         VStack {
             HStack {
                 VStack(alignment: .leading) {
@@ -89,10 +87,6 @@ extension CardView {
                 .aspectRatio(contentMode: .fill)
                 .frame(width: __designTimeInteger("#1730.[3].[0].property.[0].[0].arg[0].value.[2].modifier[2].arg[0].value", fallback: 300), height: __designTimeInteger("#1730.[3].[0].property.[0].[0].arg[0].value.[2].modifier[2].arg[1].value", fallback: 110), alignment: .top)
         }
-        .frame(width: __designTimeFloat("#1730.[3].[0].property.[0].[0].modifier[0].arg[0].value", fallback: 340.0), height: __designTimeFloat("#1730.[3].[0].property.[0].[0].modifier[0].arg[1].value", fallback: 220.0))
-        .background(.black)
-        .cornerRadius(__designTimeInteger("#1730.[3].[0].property.[0].[0].modifier[2].arg[0].value", fallback: 20))
-        .shadow(radius: __designTimeInteger("#1730.[3].[0].property.[0].[0].modifier[3].arg[0].value", fallback: 20))
     
 #sourceLocation()
     }
@@ -100,60 +94,85 @@ extension CardView {
 
 extension ContentView {
     @_dynamicReplacement(for: body) private var __preview__body: some View {
-        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 15)
+        #sourceLocation(file: "/Users/Nikita_1/Desktop/MyLife/Programming/Projects/SUI/SwiftUITestProject/SwiftUITestProject/ContentView.swift", line: 16)
         ZStack {
             TitleView()
-                .blur(radius: show ? __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.then", fallback: 20) : __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.else", fallback: 0))
-                .animation(.easeInOut, value: show)
+                .blur(radius: show ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.then", fallback: 20) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[0].modifier[0].arg[0].value.else", fallback: 0))
+                .opacity(showCard ? __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[0].modifier[1].arg[0].value.then", fallback: 0.4) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[0].modifier[1].arg[0].value.else", fallback: 1))
+                .offset(y: showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[0].modifier[2].arg[0].value.then", fallback: -200) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[0].modifier[2].arg[0].value.else", fallback: 0))
+                .animation(
+                    Animation
+                        .default
+                        .delay(__designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[0].modifier[3].arg[0].value.modifier[0].arg[0].value", fallback: 0.1)),
+                    value: showCard)
             
             BackCardView()
+                .frame(width: showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.then", fallback: 300) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[0].arg[0].value.else", fallback: 340), height: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[0].arg[1].value", fallback: 220))
                 .background(show ? .card3 : .card4)
-                .cornerRadius(__designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[1].arg[0].value", fallback: 20))
-                .shadow(radius: __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[2].arg[0].value", fallback: 20))
-                .offset(x: __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[3].arg[0].value", fallback: 0), y: show ? __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[3].arg[1].value.then", fallback: -400) : __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[3].arg[1].value.else", fallback: -40))
+                .cornerRadius(__designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[2].arg[0].value", fallback: 20))
+                .shadow(radius: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[3].arg[0].value", fallback: 20))
+                .offset(x: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[4].arg[0].value", fallback: 0), y: show ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[4].arg[1].value.then", fallback: -400) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[4].arg[1].value.else", fallback: -40))
                 .offset(x: viewState.width, y: viewState.height)
-                .scaleEffect(__designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[5].arg[0].value", fallback: 0.9))
-                .rotationEffect(.degrees(show ? __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[6].arg[0].value.arg[0].value.then", fallback: 0) : __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[6].arg[0].value.arg[0].value.else", fallback: 10)))
-                .rotation3DEffect(.degrees(__designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[7].arg[0].value.arg[0].value", fallback: 10)), axis: (x: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[7].arg[1].value.[0]", fallback: 10.0), y: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[7].arg[1].value.[1]", fallback: 0.0), z: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[7].arg[1].value.[2]", fallback: 0.0)))
+                .offset(y: showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[6].arg[0].value.then", fallback: -180) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[6].arg[0].value.else", fallback: 0))
+                .scaleEffect(showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[7].arg[0].value.then", fallback: 1) : __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[7].arg[0].value.else", fallback: 0.9))
+                .rotationEffect(.degrees(show ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[8].arg[0].value.arg[0].value.then", fallback: 0) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[8].arg[0].value.arg[0].value.else", fallback: 10)))
+                .rotationEffect(.degrees(showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[9].arg[0].value.arg[0].value.then", fallback: -10) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[9].arg[0].value.arg[0].value.else", fallback: 0)))
+                .rotation3DEffect(.degrees(showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[10].arg[0].value.arg[0].value.then", fallback: 0) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[10].arg[0].value.arg[0].value.else", fallback: 10)), axis: (x: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[10].arg[1].value.[0]", fallback: 10.0), y: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[10].arg[1].value.[1]", fallback: 0.0), z: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[10].arg[1].value.[2]", fallback: 0.0)))
                 .blendMode(.hardLight)
-                .animation(.easeInOut(duration: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[9].arg[0].value.arg[0].value", fallback: 0.5)), value: show)
-                .animation(.spring(response: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[10].arg[0].value.arg[0].value", fallback: 0.3), dampingFraction: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[10].arg[0].value.arg[1].value", fallback: 0.6), blendDuration: __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[1].modifier[10].arg[0].value.arg[2].value", fallback: 0)), value: viewState)
+                .animation(.easeInOut(duration: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[12].arg[0].value.arg[0].value", fallback: 0.5)), value: show)
+                .animation(.easeInOut(duration: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[13].arg[0].value.arg[0].value", fallback: 0.5)), value: viewState)
+                .animation(.easeInOut(duration: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[1].modifier[14].arg[0].value.arg[0].value", fallback: 0.5)), value: showCard)
+//                .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0), value: showCard)
             
             BackCardView()
+                .frame(width: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[0].arg[0].value", fallback: 340), height: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[0].arg[1].value", fallback: 220))
                 .background(show ? .card4 : .card3)
-                .cornerRadius(__designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[1].arg[0].value", fallback: 20))
-                .shadow(radius: __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[2].arg[0].value", fallback: 20))
-                .offset(x: __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[3].arg[0].value", fallback: 0), y: show ? __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[3].arg[1].value.then", fallback: -200) : __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[3].arg[1].value.else", fallback: -20))
+                .cornerRadius(__designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[2].arg[0].value", fallback: 20))
+                .shadow(radius: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[3].arg[0].value", fallback: 20))
+                .offset(x: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[4].arg[0].value", fallback: 0), y: show ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[4].arg[1].value.then", fallback: -200) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[4].arg[1].value.else", fallback: -20))
                 .offset(x: viewState.width, y: viewState.height)
-                .scaleEffect(__designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[5].arg[0].value", fallback: 0.95))
-                .rotationEffect(.degrees(show ? __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[6].arg[0].value.arg[0].value.then", fallback: 0) : __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[6].arg[0].value.arg[0].value.else", fallback: 5)))
-                .rotation3DEffect(.degrees(__designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[7].arg[0].value.arg[0].value", fallback: 5)), axis: (x: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[7].arg[1].value.[0]", fallback: 10.0), y: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[7].arg[1].value.[1]", fallback: 0.0), z: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[7].arg[1].value.[2]", fallback: 0.0)))
+                .offset(y: showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[6].arg[0].value.then", fallback: -140) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[6].arg[0].value.else", fallback: 0))
+                .scaleEffect(showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[7].arg[0].value.then", fallback: 1) : __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[7].arg[0].value.else", fallback: 0.95))
+                .rotationEffect(.degrees(show ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[8].arg[0].value.arg[0].value.then", fallback: 0) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[8].arg[0].value.arg[0].value.else", fallback: 5)))
+                .rotationEffect(.degrees(showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[9].arg[0].value.arg[0].value.then", fallback: -5) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[9].arg[0].value.arg[0].value.else", fallback: 0)))
+                .rotation3DEffect(.degrees(showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[10].arg[0].value.arg[0].value.then", fallback: 0) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[10].arg[0].value.arg[0].value.else", fallback: 5)), axis: (x: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[10].arg[1].value.[0]", fallback: 10.0), y: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[10].arg[1].value.[1]", fallback: 0.0), z: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[10].arg[1].value.[2]", fallback: 0.0)))
                 .blendMode(.hardLight)
-                .animation(.easeInOut(duration: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[9].arg[0].value.arg[0].value", fallback: 0.3)), value: show)
-                .animation(.spring(response: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[10].arg[0].value.arg[0].value", fallback: 0.3), dampingFraction: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[10].arg[0].value.arg[1].value", fallback: 0.6), blendDuration: __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[2].modifier[10].arg[0].value.arg[2].value", fallback: 0)), value: viewState)
+                .animation(.easeInOut(duration: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[12].arg[0].value.arg[0].value", fallback: 0.3)), value: show)
+                .animation(.easeInOut(duration: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[13].arg[0].value.arg[0].value", fallback: 0.3)), value: viewState)
+                .animation(.easeInOut(duration: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[2].modifier[14].arg[0].value.arg[0].value", fallback: 0.3)), value: showCard)
+            //                .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0), value: viewState)
+//                .animation(.spring(response: 0.3, dampingFraction: 0.6, blendDuration: 0), value: showCard)
             
             CardView()
+                .frame(width: showCard ? .infinity : __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[0].arg[0].value.else", fallback: 340.0), height: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[0].arg[1].value", fallback: 220.0))
+                .background(.black)
+                .clipShape(RoundedRectangle(cornerRadius: showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[2].arg[0].value.arg[0].value.then", fallback: 30) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[2].arg[0].value.arg[0].value.else", fallback: 20), style: .continuous))
+                .shadow(radius: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[3].arg[0].value", fallback: 20))
                 .offset(x: viewState.width, y: viewState.height)
+                .offset(y: showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[5].arg[0].value.then", fallback: -100) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[5].arg[0].value.else", fallback: 0))
                 .blendMode(.hardLight)
-                .animation(.spring(response: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[3].modifier[2].arg[0].value.arg[0].value", fallback: 0.3), dampingFraction: __designTimeFloat("#1730.[1].[2].property.[0].[0].arg[0].value.[3].modifier[2].arg[0].value.arg[1].value", fallback: 0.6), blendDuration: __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[3].modifier[2].arg[0].value.arg[2].value", fallback: 0)), value: viewState)
+                .animation(.spring(response: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[7].arg[0].value.arg[0].value", fallback: 0.3), dampingFraction: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[7].arg[0].value.arg[1].value", fallback: 0.6), blendDuration: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[7].arg[0].value.arg[2].value", fallback: 0)), value: viewState)
+                .animation(.spring(response: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[8].arg[0].value.arg[0].value", fallback: 0.3), dampingFraction: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[8].arg[0].value.arg[1].value", fallback: 0.6), blendDuration: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[8].arg[0].value.arg[2].value", fallback: 0)), value: show)
+                .animation(.spring(response: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[9].arg[0].value.arg[0].value", fallback: 0.3), dampingFraction: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[9].arg[0].value.arg[1].value", fallback: 0.6), blendDuration: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[9].arg[0].value.arg[2].value", fallback: 0)), value: showCard)
                 .onTapGesture {
-                    self.show.toggle()
+                    self.showCard.toggle()
                 }
                 .gesture(
                     DragGesture()
                         .onChanged { value in
                             self.viewState = value.translation
-                            self.show = __designTimeBoolean("#1730.[1].[2].property.[0].[0].arg[0].value.[3].modifier[4].arg[0].value.modifier[0].arg[0].value.[1].[0]", fallback: true)
+                            self.show = __designTimeBoolean("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[11].arg[0].value.modifier[0].arg[0].value.[1].[0]", fallback: true)
                         }
                         .onEnded { _ in
                             self.viewState = .zero
-                            self.show = __designTimeBoolean("#1730.[1].[2].property.[0].[0].arg[0].value.[3].modifier[4].arg[0].value.modifier[1].arg[0].value.[1].[0]", fallback: false)
+                            self.show = __designTimeBoolean("#1730.[1].[3].property.[0].[0].arg[0].value.[3].modifier[11].arg[0].value.modifier[1].arg[0].value.[1].[0]", fallback: false)
                         }
                 )
             
             BottomCardView()
-                .blur(radius: show ? __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[4].modifier[0].arg[0].value.then", fallback: 20) : __designTimeInteger("#1730.[1].[2].property.[0].[0].arg[0].value.[4].modifier[0].arg[0].value.else", fallback: 0))
-                .animation(.default, value: show)
+                .offset(x: __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[0].arg[0].value", fallback: 0), y: showCard ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[0].arg[1].value.then", fallback: 360) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[0].arg[1].value.else", fallback: 1000))
+                .blur(radius: show ? __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[1].arg[0].value.then", fallback: 20) : __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[1].arg[0].value.else", fallback: 0))
+                .animation(.timingCurve(__designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[2].arg[0].value.arg[0].value", fallback: 0.2), __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[2].arg[0].value.arg[1].value", fallback: 0.8), __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[2].arg[0].value.arg[2].value", fallback: 0.2), __designTimeInteger("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[2].arg[0].value.arg[3].value", fallback: 1), duration: __designTimeFloat("#1730.[1].[3].property.[0].[0].arg[0].value.[4].modifier[2].arg[0].value.arg[4].value", fallback: 0.8)), value: showCard)
         }
     
 #sourceLocation()

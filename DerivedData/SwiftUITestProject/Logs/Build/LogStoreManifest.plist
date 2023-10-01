@@ -6,6 +6,48 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>053D0A8B-5030-488D-A211-80057DD5E5DD</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>053D0A8B-5030-488D-A211-80057DD5E5DD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SwiftUITestProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SwiftUITestProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews SwiftUITestProject</string>
+			<key>timeStartedRecording</key>
+			<real>717833644.21331894</real>
+			<key>timeStoppedRecording</key>
+			<real>717833645.78282702</real>
+			<key>title</key>
+			<string>Build for Previews SwiftUITestProject</string>
+			<key>uniqueIdentifier</key>
+			<string>053D0A8B-5030-488D-A211-80057DD5E5DD</string>
+		</dict>
 		<key>066D0A98-DE7E-4D96-8997-AE3F297539AB</key>
 		<dict>
 			<key>className</key>
@@ -131,6 +173,48 @@
 			<string>Build for Previews SwiftUITestProject</string>
 			<key>uniqueIdentifier</key>
 			<string>1A612631-A607-481C-9AF8-4D5810C5F10A</string>
+		</dict>
+		<key>22F0CA37-4FA2-41F7-9AFE-460B7E6CF726</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>22F0CA37-4FA2-41F7-9AFE-460B7E6CF726.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SwiftUITestProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SwiftUITestProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build for Previews SwiftUITestProject</string>
+			<key>timeStartedRecording</key>
+			<real>717828548.40215695</real>
+			<key>timeStoppedRecording</key>
+			<real>717828550.08053303</real>
+			<key>title</key>
+			<string>Build for Previews SwiftUITestProject</string>
+			<key>uniqueIdentifier</key>
+			<string>22F0CA37-4FA2-41F7-9AFE-460B7E6CF726</string>
 		</dict>
 		<key>3811BCBA-4D75-4DE8-8C54-C1FEED4D3947</key>
 		<dict>
@@ -341,6 +425,48 @@
 			<string>Build for Previews SwiftUITestProject</string>
 			<key>uniqueIdentifier</key>
 			<string>712E03C6-B4F3-43A7-9ABB-680DE4CBC7D9</string>
+		</dict>
+		<key>78BEB4C3-C6B3-4557-A6FA-68CBEC788919</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78BEB4C3-C6B3-4557-A6FA-68CBEC788919.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>4</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SwiftUITestProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SwiftUITestProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SwiftUITestProject</string>
+			<key>timeStartedRecording</key>
+			<real>717833606.98473406</real>
+			<key>timeStoppedRecording</key>
+			<real>717833608.52004194</real>
+			<key>title</key>
+			<string>Build SwiftUITestProject</string>
+			<key>uniqueIdentifier</key>
+			<string>78BEB4C3-C6B3-4557-A6FA-68CBEC788919</string>
 		</dict>
 		<key>7B929248-45E1-4BC2-BDEF-33014ABAD28C</key>
 		<dict>

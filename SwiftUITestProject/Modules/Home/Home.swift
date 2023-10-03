@@ -10,17 +10,18 @@ import SwiftUI
 struct Home: View {
     @State var showProfile = false
     @State var viewState = CGSize.zero
+    @State var showContent = false
     
     var body: some View {
         ZStack {
             Color(.menuBackground)
                 .ignoresSafeArea(.all, edges: .all)
             
-            HomeView(showProfile: $showProfile)
+            HomeView(showProfile: $showProfile, showContent: $showContent)
                 .padding(.top, 44)
                 .background(.white)
                 .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
-                .shadow(color: .black.opacity(0.2), radius: 20, x: 0, y: 20)
+                .modifier(ShadowModifier())
                 .rotation3DEffect(
                     .degrees(showProfile ? Double(viewState.height / 10) - 10 : 0), axis: (x: 10, y: 0.0, z: 0.0)
                 )
@@ -49,6 +50,26 @@ struct Home: View {
                             self.viewState = .zero
                         }
                 )
+            
+            if showContent {
+                ZStack {
+                    Color(.white)
+                        .ignoresSafeArea(.all)
+                    CertificateView()
+                    
+                    
+                    VStack {
+                        HStack {
+                            Spacer()
+                            
+                            CloseView(show: $showContent)
+                        }
+                        
+                        Spacer()
+                    }
+                    .offset(x: -16, y: 16)
+                }
+            }
         }
     }
 }
@@ -74,3 +95,4 @@ struct AvatarView: View {
 }
 
 let screen = UIScreen.main.bounds
+

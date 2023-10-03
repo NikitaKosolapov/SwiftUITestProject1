@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct CertificateView: View {
     @State var showBackCard = false
     @State var viewState = CGSize.zero
     @State var showBottomCard = false
@@ -124,7 +124,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    CertificateView()
 }
 
 struct CardView: View {
@@ -205,7 +205,7 @@ struct BottomCardView: View {
                 .padding(20)
                 .background(.white)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
-                .shadow(color: .black.opacity(0.2), radius: 20, x: 0.0, y: 1)
+                .modifier(ShadowModifier())
             }
             
             Spacer()

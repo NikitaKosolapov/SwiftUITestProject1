@@ -35,7 +35,7 @@ struct MenuView: View {
             .frame(height: 300)
             .background(LinearGradient(gradient: Gradient(colors: [.white, .menu]), startPoint: .top, endPoint: .bottom))
             .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
-            .shadow(color: .black.opacity(0.2), radius: 20, x: 0, y: 20)
+            .modifier(ShadowModifier())
             .padding(.horizontal, 30)
             .overlay(alignment: .center, content: {
                 Image(.avatar)
